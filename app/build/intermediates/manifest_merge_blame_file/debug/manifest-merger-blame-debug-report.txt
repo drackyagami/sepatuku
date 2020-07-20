@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.droidcafe"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\DroidCafe\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\DroidCafe\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\DroidCafe\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\DroidCafe\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\082a8f9695f0e8e0bfe300de29cae667\firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\082a8f9695f0e8e0bfe300de29cae667\firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+13
+14    <application
+14-->C:\DroidCafe\app\src\main\AndroidManifest.xml:7:5-35:19
+15        android:allowBackup="true"
+15-->C:\DroidCafe\app\src\main\AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+16-->[com.android.support:support-compat:28.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\bdf4ad2326a9f658c60022fc77e6705a\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\DroidCafe\app\src\main\AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->C:\DroidCafe\app\src\main\AndroidManifest.xml:10:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\DroidCafe\app\src\main\AndroidManifest.xml:11:9-54
+21        android:supportsRtl="true"
+21-->C:\DroidCafe\app\src\main\AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\DroidCafe\app\src\main\AndroidManifest.xml:13:9-40
+24        <activity android:name="com.example.android.droidcafe.tampilanorder" />
+24-->C:\DroidCafe\app\src\main\AndroidManifest.xml:14:9-60
+24-->C:\DroidCafe\app\src\main\AndroidManifest.xml:14:19-48
+25        <activity android:name="com.example.android.droidcafe.logout" />
+25-->C:\DroidCafe\app\src\main\AndroidManifest.xml:15:9-44
+25-->C:\DroidCafe\app\src\main\AndroidManifest.xml:15:19-41
+26        <activity android:name="com.example.android.droidcafe.activityregister" />
+26-->C:\DroidCafe\app\src\main\AndroidManifest.xml:16:9-54
+26-->C:\DroidCafe\app\src\main\AndroidManifest.xml:16:19-51
+27        <activity android:name="com.example.android.droidcafe.LoginActivity" >
+27-->C:\DroidCafe\app\src\main\AndroidManifest.xml:17:9-23:20
+27-->C:\DroidCafe\app\src\main\AndroidManifest.xml:17:19-48
+28            <intent-filter>
+28-->C:\DroidCafe\app\src\main\AndroidManifest.xml:18:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\DroidCafe\app\src\main\AndroidManifest.xml:19:17-69
+29-->C:\DroidCafe\app\src\main\AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\DroidCafe\app\src\main\AndroidManifest.xml:21:17-77
+31-->C:\DroidCafe\app\src\main\AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->C:\DroidCafe\app\src\main\AndroidManifest.xml:24:9-33:20
+35            android:name="com.example.android.droidcafe.MainActivity"
+35-->C:\DroidCafe\app\src\main\AndroidManifest.xml:25:13-41
+36            android:label="@string/app_name"
+36-->C:\DroidCafe\app\src\main\AndroidManifest.xml:26:13-45
+37            android:theme="@style/AppTheme.NoActionBar" >
+37-->C:\DroidCafe\app\src\main\AndroidManifest.xml:27:13-56
+38            <intent-filter>
+38-->C:\DroidCafe\app\src\main\AndroidManifest.xml:18:13-22:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\DroidCafe\app\src\main\AndroidManifest.xml:19:17-69
+39-->C:\DroidCafe\app\src\main\AndroidManifest.xml:19:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\DroidCafe\app\src\main\AndroidManifest.xml:21:17-77
+41-->C:\DroidCafe\app\src\main\AndroidManifest.xml:21:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.example.android.droidcafe.OrderActivity" />
+44-->C:\DroidCafe\app\src\main\AndroidManifest.xml:34:9-51
+44-->C:\DroidCafe\app\src\main\AndroidManifest.xml:34:19-48
+45        <activity
+45-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d07ccb09feb00ab9a0d62d674f4a220c\firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+46            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+46-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d07ccb09feb00ab9a0d62d674f4a220c\firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+47            android:excludeFromRecents="true"
+47-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d07ccb09feb00ab9a0d62d674f4a220c\firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+48            android:exported="true"
+48-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d07ccb09feb00ab9a0d62d674f4a220c\firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+49            android:launchMode="singleTask"
+49-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d07ccb09feb00ab9a0d62d674f4a220c\firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+50            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+50-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d07ccb09feb00ab9a0d62d674f4a220c\firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+51            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+51-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d07ccb09feb00ab9a0d62d674f4a220c\firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+52
+53        <service
+53-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d07ccb09feb00ab9a0d62d674f4a220c\firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+54            android:name="com.google.firebase.components.ComponentDiscoveryService"
+54-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d07ccb09feb00ab9a0d62d674f4a220c\firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+55            android:exported="false" >
+55-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d07ccb09feb00ab9a0d62d674f4a220c\firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+56            <meta-data
+56-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d07ccb09feb00ab9a0d62d674f4a220c\firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+57                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+57-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d07ccb09feb00ab9a0d62d674f4a220c\firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d07ccb09feb00ab9a0d62d674f4a220c\firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+59        </service>
+60
+61        <activity
+61-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ec42b1e6c5ed9cec7a175a34438d0776\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+62            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+62-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ec42b1e6c5ed9cec7a175a34438d0776\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+63            android:exported="false"
+63-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ec42b1e6c5ed9cec7a175a34438d0776\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+64-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ec42b1e6c5ed9cec7a175a34438d0776\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+65
+66        <provider
+66-->[com.google.firebase:firebase-common:16.0.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0eba3ce3083a7a444f92bd1475523d41\firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+67            android:name="com.google.firebase.provider.FirebaseInitProvider"
+67-->[com.google.firebase:firebase-common:16.0.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0eba3ce3083a7a444f92bd1475523d41\firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+68            android:authorities="com.example.android.droidcafe.firebaseinitprovider"
+68-->[com.google.firebase:firebase-common:16.0.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0eba3ce3083a7a444f92bd1475523d41\firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+69            android:exported="false"
+69-->[com.google.firebase:firebase-common:16.0.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0eba3ce3083a7a444f92bd1475523d41\firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+70            android:initOrder="100" />
+70-->[com.google.firebase:firebase-common:16.0.3] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0eba3ce3083a7a444f92bd1475523d41\firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\56c6d96d50d709dbeb417ab8795301c3\play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\56c6d96d50d709dbeb417ab8795301c3\play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\56c6d96d50d709dbeb417ab8795301c3\play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+75
+76        <provider
+76-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\77783c59193b4557b0cf5a80ac74eaf7\extensions-1.1.1\AndroidManifest.xml:23:9-27:43
+77            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+77-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\77783c59193b4557b0cf5a80ac74eaf7\extensions-1.1.1\AndroidManifest.xml:24:13-83
+78            android:authorities="com.example.android.droidcafe.lifecycle-trojan"
+78-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\77783c59193b4557b0cf5a80ac74eaf7\extensions-1.1.1\AndroidManifest.xml:25:13-68
+79            android:exported="false"
+79-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\77783c59193b4557b0cf5a80ac74eaf7\extensions-1.1.1\AndroidManifest.xml:26:13-37
+80            android:multiprocess="true" />
+80-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\77783c59193b4557b0cf5a80ac74eaf7\extensions-1.1.1\AndroidManifest.xml:27:13-40
+81    </application>
+82
+83</manifest>
